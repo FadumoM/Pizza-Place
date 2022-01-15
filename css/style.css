@@ -21,7 +21,7 @@ img{
 
 header p{
   font-family: Hachi Maru Pop;
-  color: black;
+  color:white;
  
 }
 
@@ -35,7 +35,7 @@ ul{
 ul a{
   text-decoration: none;
   font-family: Poppins;
-  color: black;
+  color: white;
 }
 
 header{
@@ -47,7 +47,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding:20px;
-  background-color:white;
+  background-color:black;
   text-decoration: none;
   
 }
@@ -76,5 +76,33 @@ header{
   height: 526px;
 }
 .box{
- 
+ border:solid 2px black;
+ background-color: black;
+ width: 325px;
+ height: 200px;
+ margin-left: 10px;
+ padding: 20px;
+}
+.box h2{
+  color: white;
+  font-size: 20px;
+  font-family: Poppins;
+}
+.box p{
+  color: white;
+  font-family: cursive;
+  font-family: 10px;
+
+}
+.box button{
+  
+  text-decoration: none;
+  padding: 10px;
+  background-color:black ;
+  border: solid 2px white;
+  border-radius: 18px;
+  color: white;
+  box-shadow: 0 0 30px 0 green,
+              0 0 30px 0 white,
+              0 0 10px 0 white;
 }

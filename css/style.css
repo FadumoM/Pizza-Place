@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Lobster&family=PT+Serif&family=Pacifico&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Lobster&family=PT+Serif&family=Pacifico&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Hachi+Maru+Pop&family=Lobster&family=PT+Serif&family=Pacifico&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  
+}
+
+img{
+  height: 60px;
+  margin: 05px;
+  
+}
+p{
+  font-family: Hachi Maru Pop;
+  color: white;
+ 
+}
+ul{
+  border: transparent 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+ul a{
+  text-decoration: none;
+  font-family: Poppins;
+  color: white;
+}
+
+header{
+  display:-webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -o-flex;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+  background-color: rgb(56, 56, 55);
+  
+}
+.nav-type li{
+  display: inline-block;
+  padding:0px 15px;
+  flex-direction: row-reverse;
+  font-family:cursive;
+  color: white;
+  
+}
+.nav-type {
+  list-style: none;
+}
+
+.nav-type a li{
+  transition: .3s;
+  color: white;
+}

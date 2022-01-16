@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <title>Document</title>
+</head>
+<header>
+  <img src="images/pizza.png" width="70" height="50"alt="pizza pic">
+  <p>Pizza Place</p>
+  <nav>
+    
+      <ul class="nav-type">
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+ </nav>
+</header>
+<body>
+  <div class="container" id="container">
+    <h1>Select your prefered pizza and toppings</h1>
+    <div class="row">
+      <div class="col-md-12">
+        <form id="order-form">
+          <p>size</p>
+          <select class="form-control" id="size">
+            <option value="small">small-$6</option>
+            <option value="mid-size">mid-size-$8</option>
+            <option value="large">large-$10</option>
+
+          </select>
+
+        </form>
+      </div>
+      <div class="col-md-12">
+        <form id="order-form"><br>
+          <p>toppings</p>
+          <select class="form-control" id="toppings">
+            <option value="chicken">chicken-$2</option>
+            <option value="bbq">bbq-$2</option>
+            <option value="mushrooms">mushrooms-$2</option>
+
+          </select>
+
+        </form>
+      </div>
+      <div class="col-md-12">
+        <form id="order-form"><br>
+          <p>crust</p>
+          <select class="form-control" id="crust">
+            <option value="thin">thin -$2</option>
+            <option value="thick">thick-$4</option>
+            
+          </select>
+
+        </form>
+      </div>
+      <div class="col-md-12">
+        <form id="order-form">
+          <p>size</p>
+          <input type="checkbox" name="delivery" value="deliver">Delivery<br>
+          <input type="checkbox" name="no-delivery" value="no-deliver">Instore<br>
+        </form>
+      </div>
+      <button type="submit" class="btn btn-secondary btn-lg">Checkout</button>
+    </div>
+  </div>
+ 
+  
+<body>
+  
+</body>
+</html>

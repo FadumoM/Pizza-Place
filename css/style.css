@@ -69,7 +69,7 @@ header{
   color: white;
 }
 .section{
-  background-image: url(/images/pizza50.jpg);
+  background-image: url(../images/pizza50.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -127,4 +127,8 @@ header{
 #lam{
   text-decoration: none;
   color: white;
+}
+.contain h2{
+  text-align: center;
+  font-family: cursive;
 }
